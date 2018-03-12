@@ -1,5 +1,5 @@
 numpy
 sklearn
-scikit-learn
 nltk
-scipy
+scipy>=0.15.1
+scikit-learn>=0.18

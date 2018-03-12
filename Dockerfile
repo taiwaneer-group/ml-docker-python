@@ -18,3 +18,4 @@ RUN pip install --no-cache -r requirements.txt
 # Copy current files to container
 COPY . .
 
+CMD [ "python" ]
