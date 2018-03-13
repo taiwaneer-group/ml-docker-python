@@ -51,11 +51,16 @@ Run
 
 You will be in the docker container and should be able to run the python startup.py in tool directory.
 
-Once you are done developing, you can run
+Once you are done with the development, you can run
 
 `docker stop ml-container`
 
-to stop the container and run
+to stop the container
+
+
+To start from where you were.
+
+Run
 
 `docker start ml-container`
 
@@ -63,11 +68,11 @@ and
 
 `docker exec -it ml-container /bin/bash`
 
-to go to the folder in the container.
+it will go to the folder in the container and your works will still be there.
 
 Any files you change in the host will immediately reflect in the container.
 
-More details will be added.
+More details will be added in the future.
 
 
 
