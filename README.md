@@ -1,6 +1,8 @@
 # ml-docker-python
 Simple python in docker setup for Udacity ML course
 
+The docker setup here will build and download all the dependencies for the mini project
+
 ## Docker introduction ##
 
 ### What is Docker? ###
@@ -15,14 +17,15 @@ How to install docker in your machine?
 
 [Docker for linux Ubuntu] (https://docs.docker.com/install/linux/docker-ee/ubuntu/)
 
+#### After docker is installed in your machine ####
 
-Run this command in your terminal to clone to your ML course directory.
+Run this command in your terminal to download the codes to your desired location in your machine.
 
 `git clone https://github.com/taiwaneer-group/ml-docker-python.git`
 
 This repo contains mini project setup from Udacity.
 
-Make sure you are in the ml-docker-python folder.
+Make sure you are in it's folder.
 
 Run
 
@@ -64,7 +67,7 @@ to go to the folder in the container.
 
 Any files you change in the host will immediately reflect in the container.
 
-
+More details will be added.
 
 
 
