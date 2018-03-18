@@ -27,19 +27,19 @@ features_train, features_test, labels_train, labels_test = preprocess()
 ### C value the bigger the better accuracy
 clf = SVC(C=10000.0, kernel="rbf")
 
-### set smaller dataset for training data
+### Set smaller dataset for training data
 features_train = features_train[:len(features_train)/100]
 labels_train = labels_train[:len(labels_train)/100]
 
-### set the timer and calculate the training time
+### Set the timer and calculate the training time
 t0 = time()
 ### Fit the training data
 clf.fit(features_train, labels_train)
 print "training time:", round(time()-t0,3), "s"
 
-### set the timer and calculate the predicting time
+### Set the timer and calculate the predicting time
 t1 = time()
-### get the prediction based on the training data
+### Set the prediction based on the training data
 pred = clf.predict(features_test)
 print "predicting time:", round(time()-t1,3), "s"
 
