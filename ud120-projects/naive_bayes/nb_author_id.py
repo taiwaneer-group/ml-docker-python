@@ -37,10 +37,10 @@ clf.fit(features_train, labels_train)
 print "training time:", round(time()-t0,3), "s"
 
 # Set the timer and calculate the predicting time
-t1 = time()
+t0 = time()
 # Get the prediction based on the training data
 pred = clf.predict(features_test)
-print "predicting time:", round(time()-t1,3), "s"
+print "predicting time:", round(time()-t0,3), "s"
 
 # Get the accuracy for the prediction
 print accuracy_score(pred, labels_test)
